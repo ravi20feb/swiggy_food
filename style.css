@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(./src/assests/font/proximanova-regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+.html{
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.carousel-wrapper::-webkit-scrollbar{
+    display: none;
+}
+.imghov-wrap:hover{
+    bottom: 2px;
+    padding-bottom: 5px;
+}
+.loco-effect-wrapper:hover  .hovImg1{
+    content: url('./src/assests/loca.png');
+    width: 37px;
+    height: 36px;
+    margin-left: 6px;
+}
+@media (min-width:961px){
+    .body-margin{
+        margin-left: calc(10% + 36px);
+        margin-right: calc(10% + 36px);
+
+
+    }
+    .filter-margin{
+        margin-left: calc(10% + 52px);
+        margin-right: calc(10% + 52px);
+  
+    }
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+.carorsel-scroll {
+    scroll-behavior: smooth;
+}
+.dishCarouselScroll {
+    scroll-behavior: smooth;
+}
+.restAreacardScroll{
+    scroll-behavior: smooth;
+}
+.line-break{
+    margin-left: calc(10% + 52px);
+    margin-right: calc(10% + 52px);
+    border: 1px solid rgb(240,240,255);
+}
+/* .filter-margin{
+    margin-left: calc(10% + 52px);
+    margin-right: calc(10% + 52px);
+  
+} */
+.sale-text{
+background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+}
+
+
+
+/* .hovImg1:hover{
+    
+
+     content: url('./src/assests/loca.png');
+    width: 42px;
+    height: 36px;
+    margin-left: 6px;
+
+    
+} */
+/* shimmer css start */
+.loader{
+  overflow: hidden;
+  position: absolute;
+
+  background: rgb(202,200,207);
+  animation: anim 1s infinite;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 5px;
+
+background:linear-gradient(to right, #fafafa, #e8e8e8 25%, #f6f7f8 36%);
+}
+
+@keyframes anim {
+  0%{left: -100%}
+  100%{left: 100%;}
+}
+/* shimmer css end */

@@ -1,0 +1,45 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "order",
+  "scripts": {
+    "test": "jest",
+    "build": "parcel build index.html && cp _redirects dist/",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "food-order"
+  ],
+  "author": "ravi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.16",
+    "babel-plugin-react-html-attrs": "^3.0.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.30",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "autoprefixer": "^10.4.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "react-svg": "^16.1.20",
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.2.1"
+  }
+}
